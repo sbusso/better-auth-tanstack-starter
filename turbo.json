@@ -3,7 +3,7 @@
     "tasks": {
         "build": {
             "dependsOn": ["^build"],
-            "outputs": [".output/**/*", ".vinxi/**/*", "public/**/*"]
+            "outputs": [".output/**/*", ".vinxi/**/*", ".vercel/**/*"]
         },
         "check-types": {
             "dependsOn": ["^check-types"]
