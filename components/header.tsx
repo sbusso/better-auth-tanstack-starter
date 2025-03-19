@@ -29,7 +29,7 @@ export function Header() {
 
                 <div className="flex items-center gap-2">
                     <a
-                        href="https://github.com/daveyplate/better-auth-nextjs-starter"
+                        href="https://github.com/daveyplate/better-auth-tanstack-starter"
                         target="_blank"
                         rel="noreferrer"
                     >
