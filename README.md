@@ -23,6 +23,9 @@ npx drizzle-kit generate
 npx drizzle-kit migrate
 ```
 
+Set up your hosting provider -
+(https://tanstack.com/start/latest/docs/framework/react/hosting)
+
 - Twitter: [@daveycodez](https://x.com/daveycodez)
 
 ## Features:
