@@ -7,8 +7,8 @@ export const Route = createFileRoute("/")({
 
 function App() {
     return (
-        <div className="text-center">
-            <header className="flex min-h-svh flex-col items-center justify-center bg-[#282c34] text-[calc(10px+2vmin)] text-white">
+        <div className="flex grow flex-col text-center">
+            <header className="flex grow flex-col items-center justify-center text-[calc(10px+2vmin)]">
                 <img
                     src={logo}
                     className="pointer-events-none h-[40vmin] animate-[spin_20s_linear_infinite]"
@@ -16,7 +16,7 @@ function App() {
                 />
 
                 <p>
-                    Edit <code>src/routes/index.tsx</code> and save to reload.
+                    Edit <code>app/routes/index.tsx</code> and save to reload.
                 </p>
 
                 <a

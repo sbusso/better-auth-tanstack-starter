@@ -1,7 +1,9 @@
 import { HeadContent, Outlet, Scripts, createRootRoute } from "@tanstack/react-router"
 import type { ReactNode } from "react"
 
+import { Header } from "@/components/header"
 import globalsCss from "@/styles/globals.css?url"
+import { Providers } from "../providers"
 
 export const Route = createRootRoute({
     head: () => ({
@@ -38,7 +40,14 @@ function RootDocument({ children }: Readonly<{ children: ReactNode }>) {
             </head>
 
             <body>
-                {children}
+                <Providers>
+                    <div className="flex min-h-svh flex-col">
+                        <Header />
+
+                        {children}
+                    </div>
+                </Providers>
+
                 <Scripts />
             </body>
         </html>
