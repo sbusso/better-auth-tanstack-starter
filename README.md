@@ -1,3 +1,54 @@
+# Better Auth TanStack Starter
+
+[Demo](https://tanstack.better-auth-starter.com)
+
+- [Next.js](https://github.com/daveyplate/better-auth-nextjs-starter)
+
+## Installation
+
+First, create a PostgreSQL Database then configure your environment variables.
+
+You can generate a `BETTER_AUTH_SECRET` [here](https://www.better-auth.com/docs/installation#set-environment-variables).
+
+```bash
+BETTER_AUTH_SECRET=""
+DATABASE_URL=""
+```
+
+Then generate your schema and perform migrations with drizzle-kit.
+
+```bash
+npx @better-auth/cli generate
+npx drizzle-kit generate
+npx drizzle-kit migrate
+```
+
+- Twitter: [@daveycodez](https://x.com/daveycodez)
+
+## Features:
+
+[Better Auth](https://better-auth.com)
+
+[Better Auth UI](https://better-auth-ui.com)
+
+[Better Auth TanStack](https://github.com/daveyplate/better-auth-tanstack)
+
+[TanStack Query](https://tanstack.com/query)
+
+[shadcn/ui](https://ui.shadcn.com)
+
+[TailwindCSS](https://tailwindcss.com)
+
+[Drizzle ORM](https://orm.drizzle.team)
+
+[PostgreSQL](https://postgresql.org)
+
+[Biome](https://biomejs.dev)
+
+[TanStack Start](https://tanstack.com/start)
+
+[Turborepo](https://turbo.build)
+
 # Welcome to TanStack.com!
 
 This site is built with TanStack Router!
