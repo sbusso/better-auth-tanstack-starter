@@ -16,10 +16,15 @@ export const Route = createRootRoute({
                 content: "width=device-width, initial-scale=1"
             },
             {
-                title: "Better Auth TanStack Start Starter"
+                title: "Better Auth TanStack Starter"
             }
         ],
-        links: [{ rel: "stylesheet", href: globalsCss }]
+        links: [
+            { rel: "stylesheet", href: globalsCss },
+            { rel: "icon", href: "/favicon.ico" },
+            { rel: "apple-touch-icon", href: "/apple-touch-icon.png" },
+            { rel: "manifest", href: "/manifest.webmanifest" }
+        ]
     }),
     component: RootComponent
 })
