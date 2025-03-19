@@ -23,8 +23,6 @@ npx drizzle-kit generate
 npx drizzle-kit migrate
 ```
 
-**Note - package.json build script sets `--preset vercel`, change this to match your hosting provider (https://tanstack.com/start/latest/docs/framework/react/hosting).**
-
 - Twitter: [@daveycodez](https://x.com/daveycodez)
 
 ## Features:
