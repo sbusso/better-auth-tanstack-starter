@@ -9,10 +9,9 @@
         "lint": "biome check",
         "check-types": "tsc --noEmit"
     },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "description": "",
+    "keywords": ["better-auth", "tanstack", "vite", "react"],
+    "author": "daveycodez",
+    "license": "MIT",
     "dependencies": {
         "@daveyplate/better-auth-tanstack": "^1.2.31",
         "@daveyplate/better-auth-ui": "^1.2.41",
